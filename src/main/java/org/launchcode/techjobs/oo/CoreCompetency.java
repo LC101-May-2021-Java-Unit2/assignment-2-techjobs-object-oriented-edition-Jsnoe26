@@ -42,3 +42,17 @@ public class CoreCompetency {
     //  ONLY a getter for the 'id' field.
 
 }
+
+    @Override
+    public String getValue() {
+        return value;
+
+    }
+
+    public void setValue(int aValue) {
+        this.value = aValue;
+    }
+
+    public int getId() {
+        return this.id;
+    }
